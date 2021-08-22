@@ -3,8 +3,26 @@
 
 
 /* ID Selectors (#)*/
+#main-doc
+{
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    grid-template-rows: auto;
 
+}
 
+#col-1
+{
+    background-color: blueviolet;
+    border-right: 3px gray solid;
+
+}
+
+#col-2
+{
+    background-color: rgb(183, 194, 26);
+
+}
 /* Class Selectors  (.)*/
 
 
