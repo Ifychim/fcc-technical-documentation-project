@@ -30,3 +30,15 @@
 
 
 /* Media Queries  */
+
+/*Media query for regular sized devices (desktops/laptops)
+Always visible and always fixed on the left side of the screen.*/
+
+@media (min-width: 1281px)
+{
+    #navbar
+    {
+        visibility: visible;
+        position: fixed;
+    }
+}
