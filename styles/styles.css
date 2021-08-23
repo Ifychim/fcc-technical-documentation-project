@@ -6,7 +6,7 @@
 #main-doc
 {
     display: grid;
-    grid-template-columns: 1fr 8fr;
+    grid-template-columns: 1.5fr 8fr;
     grid-template-rows: auto;
 
 }
@@ -23,8 +23,24 @@
     background-color: rgb(183, 193, 26);
 
 }
-/* Class Selectors  (.)*/
 
+#navbar
+{
+    display: flex;
+    flex-direction: column;
+    border: solid 3px black;
+    
+}
+
+
+/* Class Selectors  (.)*/
+.flex-row
+{
+    border-bottom: black 0.5px solid;
+    padding: 10px 0px 10px 10px;
+    
+
+}
 
 /* Pseudo Class Selectors  (x:y)*/
 
