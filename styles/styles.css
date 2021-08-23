@@ -6,21 +6,21 @@
 #main-doc
 {
     display: grid;
-    grid-template-columns: 1.5fr 8fr;
+    grid-template-columns: 1.01fr 8fr;
     grid-template-rows: auto;
 
 }
 
 #col-1
 {
-    background-color: blueviolet;
-    border-right: 3px black solid;
+    border-right: 2px black solid;
 
 }
 
 #col-2
 {
     background-color: rgb(183, 193, 26);
+    padding: 1rem;
 
 }
 
@@ -28,7 +28,6 @@
 {
     display: flex;
     flex-direction: column;
-    border: solid 3px black;
     
 }
 
@@ -42,8 +41,20 @@
 
 }
 
+.flex-row a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;
+}
+
 /* Pseudo Class Selectors  (x:y)*/
 
+.flex-row a:hover
+{
+    color: red;
+    transition: all 100ms ease-in;
+}
 
 /* Media Queries  */
 
